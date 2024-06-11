@@ -1,11 +1,11 @@
-module "accountcreation1" {
+module "accountcreation2" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "luchiap+AFTaccountcreated1@amazon.com"
-    AccountName               = "AFTaccountcreatednewname"
+    AccountEmail              = "luchiap+AFTaccountcreatedbello2@amazon.com"
+    AccountName               = "AFTaccountcreatednewname2"
     ManagedOrganizationalUnit = "Sandbox"
-    SSOUserEmail              = "luchiap+AFTaccountcreated1@amazon.com"
+    SSOUserEmail              = "luchiap+AFTaccountcreatedbello2@amazon.com"
     SSOUserFirstName          = "Admin"
     SSOUserLastName           = "User"
   }
