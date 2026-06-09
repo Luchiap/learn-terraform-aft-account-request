@@ -2,12 +2,12 @@ module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "<ACCOUNT EMAIL>"
-    AccountName               = "sandbox-aft"
-    ManagedOrganizationalUnit = "Learn AFT"
-    SSOUserEmail              = "<SSO EMAIL>"
-    SSOUserFirstName          = "Sandbox"
-    SSOUserLastName           = "AFT"
+    AccountEmail              = "luchiap+terraformDeployAccount1@amazon.com"
+    AccountName               = "terraformDeployAccount1"
+    ManagedOrganizationalUnit = "TerraformSandbox"
+    SSOUserEmail              = "luchiap+terraformDeployAccount1@amazon.com"
+    SSOUserFirstName          = "Admin"
+    SSOUserLastName           = "User"
   }
 
   account_tags = {
